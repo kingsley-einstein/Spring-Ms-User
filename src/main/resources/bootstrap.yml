@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: user-service
+    profiles:
+        active: default
+    cloud:
+        config:
+            enabled: true
+            uri: http://localhost:4126
+server:
+    port: 6722
